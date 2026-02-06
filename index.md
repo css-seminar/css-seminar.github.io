@@ -87,7 +87,7 @@ You can complete any combination of the following, including repeating the same 
 #### Exit Ticket
 
 Answer the short questions with a few statements, these can be bullets
-::::::{literalinclude} reflect/exit.md
+::::::{literalinclude} reflection/exit.md
 ::::::::
 
 
@@ -95,7 +95,7 @@ Answer the short questions with a few statements, these can be bullets
 
 This should be more complete thoughts. This should be complete sentences and may require some revision.  You will be able to revise submissions as long as they are submitted with enough time. 
 
-::::::{literalinclude} reflect/debreif.md
+::::::{literalinclude} reflection/debreif.md
 ::::::::
 
 
