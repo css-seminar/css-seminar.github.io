@@ -23,17 +23,20 @@ Upon completion of this course, students should be able to:
 
 ## Grading 
 
-:::::::{warning}
-Some of this is still in development and will be finalized after discussion on Jan 23
-::::::::
+
 
 This course is graded on a Satisfactory/Unsatisfactory basis. 
 
 To pass the course students must earn:
 - 10 present or active seminar attendance ratings
-- 12 atttempted or complete with at least 10 complete ratings on preparation assignments
-- 24 total units of reflection and synthesis (units defined below). 
+- 12 atttempted or complete with at least 10 complete ratings on preparation assignments (basic preparation should take about 30 minutes, advanced about an hour)
+- 24 total units of reflection activities(one unit should be about 30 minutes of work). 
 
+
+
+:::::{attention}
+You can add up to 24 units in *any* combination that you want. Choose what works best for you!
+::::::::
 [^indev]: this number may change
 
 ### Seminar Attendance
@@ -52,6 +55,7 @@ You can choose either of two options for your preparation:
 - basic: counts as preparation only
 - advanced: counts as preparation, and if well done, can count as a reflection unit
 
+(basic)=
 #### Basic Prep
 
 
@@ -63,7 +67,7 @@ Submit answers to the questions, using this template
 ::::{literalinclude} prepare/basic.md
 ::::::
 
-
+(advanced)=
 #### Advanced Preparation
 
 Basic prep plus read 1-3 papers by the author to get a more detailed understanding of what to expect. Include a short evaluation of the paper(s) read to prepare 
@@ -78,65 +82,104 @@ Submit using the template:
 
 You can complete any combination of the following, including repeating the same assignment for different speakers to reach the number of required reflections. 
 
-- Exit ticket: 1 unit, evaluated as complete or not
-- Deep reflection[^revopt] : up to 6 units
-
-[^revopt]: revisions may be required to earn full number of units. Submit early enough to earn the full credit. Revisions
-
-
-#### Exit Ticket
-
-Answer the short questions with a few statements, these can be bullets
-::::::{literalinclude} reflect/exit.md
-::::::::
+Seminar Specific Reflections: 
+- [Exit ticket](#exit): 1 unit, evaluated as complete or not
+- [Deep reflection](#deep)[^revopt] : up to 6 units
 
 
-#### Deep Reflection
-
-This should be more complete thoughts. This should be complete sentences and may require some revision.  You will be able to revise submissions as long as they are submitted with enough time. 
-
-::::::{literalinclude} reflect/debreif.md
-::::::::
-
-
-### Synthesis Activities 
-
-You can complete any of the following, each for up to 12 units: 
-
-
+Integrative Reflecions (each worth up to 12 units, require integrating ideas from multiple seminars): 
 - Develop a [talk schema](#schema) [^iterative] 
 - Write a [guide](#guide) for future students understanding talks outside their area [^iterative]
 - Develop a personal [tip sheet](#tips) for preparing talks based on what you saw in seminar talks[^iterative]
-- Other ideas you have to demonstrate that you are getting value from the seminar series
+
+Alternative Reflections that you propose. 
 
 
 All of these will be evaluated for depth of thinking and use of relevant examples from the seminar this semester.  
 
 [^iterative]: Revisions are expected for these assignments. Start Early to have time to iterate
 
+
+[^revopt]: revisions may be required to earn full number of units. Submit early enough to earn the full credit. 
+
+(exit)=
+#### Exit Ticket
+
+Answer the short questions with a few statements, these can be bullets
+::::::{literalinclude} reflection/exit.md
+::::::::
+
+(deep)=
+#### Deep Reflection
+
+This should be more complete thoughts. This should be complete sentences and may require some revision.  You will be able to revise submissions as long as they are submitted with enough time. 
+
+::::::{literalinclude} reflection/deep.md
+::::::::
+
+
+
+
 (schema)=
 #### Talk Schema
 
-::::::{warning}
-Details  will be added later. If you have ideas and want to discuss before this is updated just reach out. 
-:::::::
 
-Write out how you organize talks conceptually and use it to categorize the talks this semester. 
+Write out how you organize talks conceptually and use it to categorize the talks this semester.  You need to define the labels or axes you use. 
+
+:::::{tip}
+**You should start this early**, ideally by February 20 and get feedback. You can request a review, even while it is a draft PR.  This wy you can find out if you are on track or if parts of your work are unclear. Then you'll have time to earn the full 12 units for this. 
+::::::::
+
+Questions to think about: 
+- How do you define the categories you use in the preparation assignments?
+- How have seminars been similar or different?
+- How do your expectations of talks vary?
+
+Submit: a single markown file with your schema and labeling of talks.  
+
+::::{tip}
+You might use a [mermaid quadrant chart](https://mermaid.ai/open-source/syntax/quadrantChart.html) or other type of visual to categorize the talks. 
+:::::::
 
 (guide)=
 #### Seminar Guide 
 
-::::::{warning}
-Details will be added later. If you have ideas and want to discuss before this is updated just reach out. 
+Write a guide for future students on how to understand talks outside their area. It needs to use examples from your experience at seminars. 
+
+
+Questions to consider in developing it: 
+- What strategies have you tried that worked?
+- How might you turn things that you struggled with into better advice?
+- What do you wish you knew before the semester?
+
+
+Submit: your guide as a single markown file on its own branch. 
+
+::::{tip}
+Submit this by April 1 to ensure you have time to get feedback and iterate
+::::::
+
+::::::{note} Option
+You can contribute your guide directly to this website repository to make it directly usable by other students. For syntax, use [myst markdown](https://mystmd.org/guide). 
 :::::::
 
 (tips)=
 #### Talk Preparation Tips
 
-::::::{warning}
-Details will be added later. If you have ideas and want to discuss before this is updated just reach out. 
-:::::::
+Write a personal tip sheet for yourself for preparing talks based on what you saw in seminar talks. This needs to identify which seminar(s) you learned and garnered the tips from. 
 
+
+Questions to consider in developing it: 
+- What aspects of talks helped you understand better?
+- What things detracted from your ability to understand?
+- What strategies for explaining ideas verbally helped? what distracted?
+- What about the slides was helpful or not? 
+
+
+Submit: your guide as a single markown file on its own branch. 
+::::{tip}
+Submit this by April 1 to ensure you have time to get feedback and iterate
+::::::
 
 ## Work submissions
 
@@ -144,6 +187,31 @@ All work will be submitted to your personal seminar-reflection repository on git
 
 For each assignment you must make a PR with the work and request a review from `@brownsarahm`. 
 
+### Seminar Specifc Assignment Help
+For seminar-specific assignments[^semspec] there is a helper action, that you can [run manually](https://docs.github.com/en/actions/how-tos/manage-workflow-runs/manually-run-a-workflow#running-a-workflow).  There is a link to the action page to run it in your repo's readme.  You can also run the action from a terminal in the repo directory: 
+```
+gh workflow run initialize-assignment.yml
+```
+
+:::::{attention}
+the action makes a *draft* PR, click "ready for review" once you have filled it in
+::::::::
+
+You can work fully offline too: 
+- create a branch like `<type>-YYYY-MM-DD` where type is one of prepare or reflect and date is the date **of the seminar** relevant
+- install the [utils]()
+- `csssem gettemplatefile` and follow the prompts to get the template file created
+- fill in the file
+- commit, push, and open a PR. 
+
+
+
+
+[^semspec]: seminar specific assignments are [](#basic), [](#advanced), [](#exit), and  [](#deep)
+
+### Other Assignments
+
+Other assignment, you can name the branch and file anything that is related to the content of the work. 
 
 ## Announcements
 
