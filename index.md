@@ -227,6 +227,7 @@ Other assignment, you can name the branch and file anything that is related to t
 
 - For updates to this site, watch to the repo (for only major updates, select releases)
 - Seminar announcements (abstracts/bios) will be sent to the CSC-STA grad student list serve
+- For notifications when you have feedback, watch your reflection repo
 
 
 ## Academic Integrity Policy & AI Use 
