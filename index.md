@@ -55,6 +55,8 @@ You can choose either of two options for your preparation:
 - basic: counts as preparation only
 - advanced: counts as preparation, and if well done, can count as a reflection unit
 
+**deadline**: prepare work needs to be completed and submitted before the seminar each week
+
 (basic)=
 #### Basic Prep
 
@@ -96,6 +98,14 @@ Alternative Reflections that you propose.
 
 
 All of these will be evaluated for depth of thinking and use of relevant examples from the seminar this semester.  
+
+
+**deadline** Reflection work has soft deadlines.  Submit the seminar specific ones within 10 days, and the others by the suggested deadlines for your best chances at success. 
+
+::::{warning}
+Please do not leave all of the work until April.
+:::::::
+
 
 [^iterative]: Revisions are expected for these assignments. Start Early to have time to iterate
 
